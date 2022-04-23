@@ -11,14 +11,13 @@ module.exports = {
 			lg: '1024px',
 			xl: '1280px',
 		},
-		// fontFamily: {
-		// 	sans: ['"Roboto"', 'sans-serif'],
-		// 	heading: ['"Poppins"', 'sans-serif'],
-		// 	handwriting: ['"Caveat"', 'sans-serif'],
-		// },
+		fontFamily: {
+			sans: ['"Montserrat"', 'sans-serif'],
+			heading: ['"Poppins"', 'sans-serif'],
+		},
 		extend: {
 			colors: {
-				primary: colors.sky,
+				primary: colors.violet,
 			},
 		},
 	},

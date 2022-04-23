@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
 	<meta charset="utf-8">
-	<title>Home - Kolorowe stówki</title>
+	<title>Home - Kolorowe sówki</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -19,8 +19,63 @@
 
 	<link rel="manifest" href="./site.webmanifest">
 	<meta name="theme-color" content="#fafafa">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="container mx-auto">
+	<div class="h-[105px] flex justify-center items-center relative">
+		<a href="#" class="absolute left-0">
+			<img class="h-[90px]" src="./logo.png" alt="Kolowe Sówki Sklep z odzieżą dla dzieci">
+		</a>
+		<nav class="">
+			<ul class="flex uppercase text-sm font-medium">
+				<li class="mx-5">
+					<a href="#" class="hover:text-primary-700 transition-colors flex items-center">
+						Produkty
+						<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+							<path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+						</svg>
+					</a>
+				</li>
+				<li class="mx-5"><a href="#" class="hover:text-primary-700 transition-colors">Nowości</a></li>
+				<li class="mx-5"><a href="#" class="hover:text-primary-700 transition-colors">Wyprzedaże</a></li>
+				<li class="mx-5"><a href="#" class="hover:text-primary-700 transition-colors whitespace-nowrap">O nas</a></li>
+				<li class="mx-5"><a href="#" class="hover:text-primary-700 transition-colors">Kontakt</a></li>
+			</ul>
+		</nav>
+		<div class="flex justify-between absolute right-0 w-[310px]">
+			<form action="#" class="flex items-center">
+				<input class="bg-gray-100 px-1 w-[160px] h-[24px]" type="text" name="q">
+				<button type="submit" class="ml-2 hover:text-primary-700 transition-colors">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+						<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+					</svg>
+				</button>
+			</form>
 
+			<a href="#" class="hover:text-primary-700 transition-colors">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+					<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
+				</svg>
+			</a>
+
+			<a href="#" class="hover:text-primary-700 transition-colors">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+					<path fill-rule="evenodd" d="M8.867 14.41c13.308-9.322 4.79-16.563.064-13.824L7 3l1.5 4-2 3L8 15a38.094 38.094 0 0 0 .867-.59Zm-.303-1.01c6.164-4.4 6.91-7.982 6.22-9.921C14.031 1.37 11.447.42 9.587 1.368L8.136 3.18l1.3 3.468a1 1 0 0 1-.104.906l-1.739 2.608.971 3.237Zm-1.25 1.137a36.027 36.027 0 0 1-1.522-1.116C-5.077 4.97 1.842-1.472 6.454.293c.314.12.618.279.904.477L5.5 3 7 7l-1.5 3 1.815 4.537Zm-2.3-3.06C.895 7.797.597 4.875 1.308 3.248c.756-1.73 2.768-2.577 4.456-2.127L4.732 2.36a1 1 0 0 0-.168.991L5.91 6.943l-1.305 2.61a1 1 0 0 0-.034.818l.442 1.106Z"/>
+				</svg>
+			</a>
+
+			<a href="#" class="hover:text-primary-700 transition-colors">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+					<path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+				</svg>
+			</a>
+		</div>
+	</div>
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</div>
 </body>
 </html>

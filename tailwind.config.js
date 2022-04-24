@@ -19,6 +19,9 @@ module.exports = {
 			colors: {
 				primary: colors.violet,
 			},
+			fontSize: {
+				xxs: ['.625rem', { lineHeight: '.75rem' }],
+			}
 		},
 	},
 	plugins: [],

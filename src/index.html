@@ -32,14 +32,24 @@
 	Darmowa wysyłka już od 400 PLN
 </div>
 <header class="sticky z-50 w-full bg-white/95 transition-shadow duration-300 top-0">
-	<div class="container mx-auto">
-		<div class="h-[105px] flex justify-center items-center relative">
-			<a href="#" class="absolute left-0">
-				<img class="h-[90px]" src="./logo.png" alt="Kolowe Sówki Sklep z odzieżą dla dzieci">
+	<div class="container px-4 mx-auto">
+		<div class="h-[82px] lg:h-[105px] flex justify-center items-center relative">
+			<div class="absolute left-0 flex items-center">
+				<a href="#" class="hover:text-primary-700 transition-colors lg:hidden mr-3">
+					<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+					</svg>
+				</a>
+				<a href="#" class="hidden lg:inline">
+					<img class="h-[90px]" src="./logo.png" alt="Kolowe Sówki Sklep z odzieżą dla dzieci">
+				</a>
+			</div>
+			<a href="#" class="lg:hidden">
+				<img class="h-[70px]" src="./logo.png" alt="Kolowe Sówki Sklep z odzieżą dla dzieci">
 			</a>
-			<nav>
+			<nav class="mr-[170px] xl:mr-0 hidden lg:block">
 				<ul class="flex uppercase text-sm font-medium">
-					<li class="mx-5 group">
+					<li class="mx-3 xl:mx-5 group">
 						<a href="#" class="hover:text-primary-700 transition-colors flex items-center">
 							Produkty
 							<svg class="ml-2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
@@ -55,14 +65,14 @@
 							</ul>
 						</div>
 					</li>
-					<li class="mx-5"><a href="#" class="hover:text-primary-700 transition-colors">Nowości</a></li>
-					<li class="mx-5"><a href="#" class="hover:text-primary-700 transition-colors">Wyprzedaże</a></li>
-					<li class="mx-5"><a href="#" class="hover:text-primary-700 transition-colors whitespace-nowrap">O nas</a></li>
-					<li class="mx-5"><a href="#" class="hover:text-primary-700 transition-colors">Kontakt</a></li>
+					<li class="mx-3 xl:mx-5"><a href="#" class="hover:text-primary-700 transition-colors">Nowości</a></li>
+					<li class="mx-3 xl:mx-5"><a href="#" class="hover:text-primary-700 transition-colors">Wyprzedaże</a></li>
+					<li class="mx-3 xl:mx-5"><a href="#" class="hover:text-primary-700 transition-colors whitespace-nowrap">O nas</a></li>
+					<li class="mx-3 xl:mx-5"><a href="#" class="hover:text-primary-700 transition-colors">Kontakt</a></li>
 				</ul>
 			</nav>
-			<div class="flex justify-between absolute right-0 w-[310px]">
-				<form action="#" class="flex items-center">
+			<div class="absolute right-0 w-[90px] sm:w-[128px] lg:w-[310px] flex justify-between">
+				<form action="#" class="flex items-center hidden lg:block">
 					<input class="border-gray-300 border-2 px-1 w-[160px] h-[24px]" type="text" name="q">
 					<button type="submit" class="ml-2 hover:text-primary-700 transition-colors">
 						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
@@ -77,7 +87,13 @@
 					</svg>
 				</a>
 
-				<a href="#" class="hover:text-primary-700 transition-colors relative">
+				<a href="#" class="hover:text-primary-700 transition-colors lg:hidden">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+						<path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+					</svg>
+				</a>
+
+				<a href="#" class="hover:text-primary-700 transition-colors relative hidden sm:inline">
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
 						<path fill-rule="evenodd"
 							  d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>

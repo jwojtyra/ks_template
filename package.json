@@ -18,9 +18,9 @@
 		"tailwindcss": "^3.0.24"
 	},
 	"scripts": {
-		"start": "npx parcel ./src/*.html  ./src/*.xml",
-		"build": "npx parcel build",
-		"build-github-pages": "npx parcel build --public-url https://jwojtyra.github.io/ks_template/"
+		"start": "npx parcel ./src/*.html ./src/*.xml",
+		"build": "npx parcel build ./src/*.html ./src/*.xml",
+		"build-github-pages": "npx parcel build ./src/*.html ./src/*.xml --public-url https://jwojtyra.github.io/ks_template/"
 	},
 	"author": "marcin.dobroszek@gmail.com",
 	"license": "ISC"

@@ -118,8 +118,8 @@
 </header>
 
 <div class="container mx-auto">
-	<div class="grid grid-cols-4 gap-6 mt-8 mb-16 px-4">
-		<aside>
+	<div class="flex flex-col flex-col-reverse sm:grid sm:grid-cols-6 lg:grid-cols-4 gap-6 mt-8 mb-16 px-4">
+		<aside class="sm:col-span-2 lg:col-span-1 mt-6 sm:mt-0">
 			<form action="">
 				<section class="bg-gray-100 mb-6 px-5 py-3">
 					<label class="flex items-center py-1 cursor-pointer text-sm">
@@ -156,8 +156,8 @@
 				</button>
 			</form>
 		</aside>
-		<main class="col-span-3">
-			<div class="grid grid-cols-3 gap-6">
+		<main class="sm:col-span-4 lg:col-span-3">
+			<div class="grid grid-cols-2 lg:grid-cols-3 gap-6">
 				<article class="text-center relative">
 					<img src="https://i.pinimg.com/originals/1d/d6/aa/1dd6aacd3b72f6717b63955174c6da15.jpg" alt="" class="mb-4">
 					<h3>
@@ -218,6 +218,48 @@
 					<span class="font-bold text-sm">999.99 PLN</span>
 				</article>
 			</div>
+
+			<nav class="flex justify-center text-sm font-medium mt-12">
+				<ul class="flex items-center">
+					<li class="mx-1">
+						<a href="#" class="hover:text-primary-700 transition-colors px-2">
+							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+								<path fill-rule="evenodd"
+									  d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+							</svg>
+						</a>
+					</li>
+					<li class="mx-1">
+						<a href="#" class="hover:text-primary-700 transition-colors px-2">1</a>
+					</li>
+					<li class="mx-1">
+						...
+					</li>
+					<li class="mx-1">
+						<a href="#" class="hover:text-primary-700 transition-colors px-2">12</a>
+					</li>
+					<li class="mx-1">
+						<span class="text-primary-700 underline px-2">13</span>
+					</li>
+					<li class="mx-1">
+						<a href="#" class="hover:text-primary-700 transition-colors px-2">14</a>
+					</li>
+					<li class="mx-1">
+						...
+					</li>
+					<li class="mx-1">
+						<a href="#" class="hover:text-primary-700 transition-colors px-2">28</a>
+					</li>
+					<li class="mx-1">
+						<a href="#" class="hover:text-primary-700 transition-colors px-2">
+							<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" viewBox="0 0 16 16">
+								<path fill-rule="evenodd"
+									  d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</nav>
 		</main>
 	</div>
 </div>

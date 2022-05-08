@@ -6,18 +6,19 @@
 	"browserslist": [
 		"> 0.5%, last 2 versions, not dead"
 	],
-	"dependencies": {
-	},
+	"dependencies": {},
 	"devDependencies": {
 		"@parcel/packager-raw-url": "^2.5.0",
+		"@parcel/packager-xml": "^2.5.0",
 		"@parcel/transformer-webmanifest": "^2.5.0",
+		"@parcel/transformer-xml": "^2.5.0",
 		"npx": "^10.2.2",
 		"parcel": "^2.5.0",
 		"postcss": "^8.4.12",
 		"tailwindcss": "^3.0.24"
 	},
 	"scripts": {
-		"start": "npx parcel",
+		"start": "npx parcel ./src/*.html  ./src/*.xml",
 		"build": "npx parcel build",
 		"build-github-pages": "npx parcel build --public-url https://jwojtyra.github.io/ks_template/"
 	},

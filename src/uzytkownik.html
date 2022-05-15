@@ -119,117 +119,48 @@
 
 <div class="flex-grow container mx-auto">
 	<hr class="mx-4">
-	<div class="mt-6 mb-16 px-4">
-		<header class="mb-12">
-			<h1 class="text-3xl font-bold mb-4">Koszyk</h1>
-		</header>
-		<form action="dane-kupujacego.html">
-			<div class="flex flex-col lg:grid grid-cols-4 gap-6">
-				<main class="sm:col-span-4 lg:col-span-3">
-					<table class="table-auto border-collapse w-full text-sm">
-						<thead class="border-b-2">
-						<tr>
-							<th class="hidden sm:table-cell"></th>
-							<th class="text-left sm:px-3 py-3">Produkt</th>
-							<th class="text-left p-3 text-right">Ilość</th>
-							<th class="text-left p-3 text-right">Cena</th>
-							<th class="text-left p-3 text-right">Suma</th>
-							<th></th>
-						</tr>
-						</thead>
-						<tbody>
-						<tr>
-							<td class="hidden sm:table-cell p-3 pl-0 border-t">
-								<a href="produkt.html">
-									<img width="90" src="https://i.pinimg.com/originals/1d/d6/aa/1dd6aacd3b72f6717b63955174c6da15.jpg" alt="">
-								</a>
-							</td>
-							<td class="sm:px-3 py-3 border-t align-top"><a href="produkt.html">Koszula z krawatem</a></td>
-							<td class="p-3 border-t align-top">
-								<label class="flex justify-end">
-									<input type="number" name="product[123]" min="1" max="10" value="2" class="border-2 p-1 text-right">
-								</label>
-							</td>
-							<td class="p-3 align-top border-t text-right">99.00 PLN</td>
-							<td class="p-3 align-top border-t text-right">198.00 PLN</td>
-							<td class="p-3 pr-0 align-top border-t text-right">
-								<a href="#" class="flex items-center justify-end text-red-700">
-									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mr-0 sm:mr-1" viewBox="0 0 16 16">
-										<path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
-									</svg>
-									<span class="hidden sm:inline">usuń</span>
-								</a>
-							</td>
-						</tr>
-						<tr>
-							<td class="hidden sm:table-cell p-3 pl-0 border-t">
-								<a href="produkt.html">
-									<img width="90" src="https://i.pinimg.com/originals/1d/d6/aa/1dd6aacd3b72f6717b63955174c6da15.jpg" alt="">
-								</a>
-							</td>
-							<td class="sm:px-3 py-3 border-t align-top"><a href="produkt.html">Koszula z krawatem</a></td>
-							<td class="p-3 border-t align-top">
-								<label class="flex justify-end">
-									<input type="number" name="product[321]" min="1" max="10" value="2" class="border-2 p-1 text-right">
-								</label>
-							</td>
-							<td class="p-3 border-t align-top text-right">99.00 PLN</td>
-							<td class="p-3 border-t align-top text-right">198.00 PLN</td>
-							<td class="p-3 pr-0 align-top border-t text-right">
-								<a href="#" class="flex items-center justify-end text-red-700">
-									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="mr-0 sm:mr-1" viewBox="0 0 16 16">
-										<path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"/>
-									</svg>
-									<span class="hidden sm:inline">usuń</span>
-								</a>
-							</td>
-						</tr>
-						</tbody>
-					</table>
-				</main>
-				<aside class="sm:col-span-2 lg:col-span-1">
-					<section class="border-4 border-gray-200 mb-6 px-5 py-3">
-						<h3 class="text-lg font-bold mb-2">Metody dostawy</h3>
+	<main class="my-12 px-4">
+		<div class="grid md:grid-cols-2 md:gap-12 max-w-[992px] mx-auto">
+			<section class="p-8 bg-gray-100 mb-4">
+				<h2 class="text-2xl font-bold mb-7">Zarejestrowani klienci</h2>
+				<form>
+					<label class="block mb-1">
+						<span class="block mb-0.5">Adres email</span>
+						<input type="email" name="email" class="w-full border-gray-300 border-2 p-1">
+					</label>
 
-						<label class="flex items-center py-1 cursor-pointer text-sm">
-							<input type="radio" name="delivery" class="mr-2">
-							Orlen Paczka
+					<p class="mb-1">
+						<label class="flex items-center justify-end py-1 cursor-pointer text-sm">
+							<input type="checkbox" name="remember" class="mr-2">
+							Zapamiętaj adres email
 						</label>
-						<label class="flex items-center py-1 cursor-pointer text-sm">
-							<input type="radio" name="delivery" class="mr-2">
-							InPost Kurier
-						</label>
-						<label class="flex items-center py-1 cursor-pointer text-sm">
-							<input type="radio" name="delivery" class="mr-2">
-							InPost Paczkomat
-						</label>
-					</section>
+					</p>
 
-					<section class="border-4 border-gray-200 mb-6 px-5 py-3">
-						<h3 class="text-lg font-bold mb-2">Podsumowanie</h3>
+					<label class="block mb-1">
+						<span class="block mb-0.5">Twoje hasło</span>
+						<input type="password" name="password" class="w-full border-gray-300 border-2 p-1">
+					</label>
 
-						<div class="flex justify-between text-sm mb-1">
-							<span>Produkty</span>
-							<span class="font-medium">99.00 PLN</span>
-						</div>
-						<div class="flex justify-between text-sm mb-1">
-							<span>Transport</span>
-							<span class="font-medium">9.99 PLN</span>
-						</div>
-						<hr class="my-2 border-t-2">
-						<div class="flex justify-between text-sm mb-1">
-							<span>Suma</span>
-							<span class="font-medium">108.99 PLN</span>
-						</div>
-					</section>
+					<p class="text-right mb-6">
+						<a href="#" class="text-sm text-primary-800 hover:underline">Zapomniałem hasła</a>
+					</p>
 
 					<button type="submit" class="bg-primary-500 hover:bg-primary-600 px-5 py-2 text-sm font-medium text-white transition-colors w-full">
-						Zamawiam
+						Zaloguj
 					</button>
-				</aside>
-			</div>
-		</form>
-	</div>
+				</form>
+			</section>
+
+			<section class="p-8 border-4 border-gray-100 mb-4 flex flex-col">
+				<h2 class="text-2xl font-bold mb-6">Nowi klienci</h2>
+				<div class="flex-grow flex items-center">
+					<a href="#" class="bg-primary-500 hover:bg-primary-600 px-5 py-2 text-sm text-center font-medium text-white transition-colors w-full">
+						Zarejestruj się
+					</a>
+				</div>
+			</section>
+		</div>
+	</main>
 </div>
 
 <footer class="bg-gray-100">
